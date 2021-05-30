@@ -1,8 +1,8 @@
 from typing import Any
 
 from django import forms
-from django.contrib.auth import get_user_model
 from django.conf import settings
+from django.contrib.auth import get_user_model
 from django.core.exceptions import ValidationError
 from django.utils import timezone
 
